@@ -1,0 +1,46 @@
+# Build and test output
+/dist/
+[Bb]in/
+[Oo]bj/
+TestResults/
+*.exe
+*.pdb
+
+# Local design source files
+/.local/
+
+# IDE and OS files
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Local game data and backups
+/profiles/
+/steam_profiles/
+/mod/
+.quper-backups/
+.quper-temp-*
+.quper-copy-*/
+game.sii
+info.sii
+profile.sii
+controls.sii
+config.cfg
+config_local.cfg
+game.log.txt
+game.crash.txt
+
+# Local environment and signing keys
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12
+*.snk
+*.key
+node_modules/
